@@ -65,7 +65,7 @@ function criarElemento(filme,data) {
                 <span>${filme.resumo}</span>
             </div>
             <div class="card__semelhantes">
-                <p><strong>Elenco: </strong></p>
+                <p><strong>Titulos Semelhantes : </strong></p>
                 <div>
                 ${filme.titulosSemelhantes
                   .map((element) => {
